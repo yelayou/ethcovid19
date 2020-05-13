@@ -1256,7 +1256,7 @@ label {
 	.feature-extended {
 		display: flex;
 		align-items: center;
-		padding-top: 72px;
+		padding-top: 42px;
 	}
 	.feature-extended:nth-child(even) .feature-extended-image {
 		order: 1;
@@ -1473,7 +1473,7 @@ main {
 .footer-brand,
 .footer-links,
 .footer-social-links {
-	margin-bottom: 24px;
+	margin-bottom: 10px;
 }
 .footer-links li + li,
 .footer-social-links li + li {
@@ -1507,4 +1507,9 @@ main {
 		order: 1;
 		margin-bottom: 0;
 	}
+}
+.mySlides {
+	display:none;
+	height: 400px;
+	border-radius: 1em;
 }
